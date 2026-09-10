@@ -1,0 +1,35 @@
+{
+  "name": "changelog-genie",
+  "version": "1.0.0",
+  "description": "Conventional Commits → CHANGELOG.md sections, semver bumps and release notes. Zero dependencies, deterministic, no config required.",
+  "main": "src/index.js",
+  "bin": {
+    "changelog-genie": "bin/changelog-genie.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "changelog",
+    "release",
+    "semver",
+    "conventional-commits",
+    "git",
+    "automation",
+    "cli",
+    "zero-dependency"
+  ],
+  "author": "Duk · dukdev.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dukk11/changelog-genie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dukk11/changelog-genie/issues"
+  },
+  "homepage": "https://github.com/Dukk11/changelog-genie#readme"
+}
