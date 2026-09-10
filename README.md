@@ -6,6 +6,8 @@
 [![node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](package.json)
 ![zero dependencies](https://img.shields.io/badge/dependencies-0-success)
 
+<p align="center"><img src="assets/demo.svg" alt="changelog-genie demo" width="720"></p>
+
 **Keep your commits conventional — this writes your releases.**
 changelog-genie collects the commits since your last `v*` tag, derives the
 semver bump (breaking → major, `feat` → minor, `fix`/`perf` → patch), renders
